@@ -10,7 +10,7 @@ Kierunek: propozycja produktu trzeciej odsłony „Metody na Podszywacza” orga
 
 Plan sześciu ekranów mobilnych i sześciu widoków panelu, granice modułów, przepływ tury AI, stany sesji, wersjonowanie treści, propozycja danych i operacji API, wdrożenie, 31 wymagań funkcjonalnych i 19 niefunkcjonalnych oraz ścieżki ręcznego odbioru. Uzupełniono brief proponowanej trzeciej odsłony, pakiety odbiorców i program C01–C06. To specyfikacja robocza, nie działająca aplikacja; współpraca z organizatorem nie jest potwierdzona.
 
-Przygotowano [makiety graficzne v1](../01-product/mockups.md): sześć ekranów mobile i sześć widoków panelu oraz lokalne podglądy klikalne. Projekt wizualny pozostaje do omówienia.
+Przygotowano [makiety graficzne v2](../01-product/mockups.md): sześć ekranów mobile i sześć widoków panelu oraz lokalne podglądy klikalne. Właściciel wybrał czerń, biel i czerwień ze strony organizatora; v2 stosuje tę paletę. Układ pozostaje do omówienia.
 
 ## Propozycje do zatwierdzenia
 

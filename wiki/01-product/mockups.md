@@ -4,7 +4,7 @@ Data: 2026-10-25. Status: propozycja do omówienia. Właściciel zlecił wykonan
 
 ## Gdzie oglądać
 
-[Plansza mobilna i komplet 12 ekranów](../../design/mockups/v1/README.md) obejmują sześć ekranów aplikacji oraz sześć widoków panelu. Klikalne podglądy są dostępne w rozmowie, a ich lokalne źródła w katalogu `Desktop/xyz-defender-mockups`.
+[Plansza mobilna i komplet 12 ekranów](../../design/mockups/v2/README.md) obejmują sześć ekranów aplikacji oraz sześć widoków panelu. Klikalne podglądy są dostępne w rozmowie, a ich lokalne źródła w katalogu `Desktop/xyz-defender-mockups`.
 
 ## Co pokazujemy
 
@@ -17,9 +17,11 @@ W klikalnej makiecie można przejść przez trening, wybrać różne decyzje i z
 
 ## Propozycja stylu
 
-Jasne tło, granatowy tekst, pomarańczowy przycisk głównego działania i zielone oznaczenie bezpiecznej obserwacji. Proste ikony, spójne karty i krótkie komunikaty. Zachowujemy neutralną nazwę XYZ. Podgląd klikalny ma też wariant kolorów odpowiadający ciemnemu wyglądowi otoczenia; pliki PNG pokazują wariant jasny.
+Wersja v2 stosuje czerń `#000000`, biel `#FFFFFF` i czerwień `#E80000` odczytane z CSS oficjalnej strony organizatora. Neutralne szarości porządkują tła; bezpieczne obserwacje mają opis i ikonę. [Źródło palety](../../design/mockups/v2/palette.md). Proste ikony, spójne karty i krótkie komunikaty. Zachowujemy neutralną nazwę XYZ. Podgląd klikalny ma też wariant kolorów odpowiadający ciemnemu wyglądowi otoczenia; pliki PNG pokazują wariant jasny.
 
 Makiety nie deklarują spełnienia wszystkich parametrów NFR. Dokładne rozmiary tekstu, obszary dotykowe i dostępność zostaną dopracowane po akceptacji kierunku. Również układ panelu jest propozycją ergonomii, a nie gotową konfiguracją Django Admin.
+
+[Poprzednia wersja v1](../../design/mockups/v1/README.md) pozostaje dostępna do porównania. Klikalne źródła bieżącej wersji mają nazwy `xyz-mobile-v2.html` i `xyz-admin-v2.html`.
 
 ## Do omówienia
 

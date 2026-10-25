@@ -4,7 +4,7 @@ Mobilny produkt proponowany jako trzecia odsłona kampanii „Metoda na Podszywa
 
 Status: planowanie projektu hackathonowego. Repozytorium zawiera dokumentację Markdown i makiety graficzne PNG. Nie rozpoczynamy implementacji bez uzgodnienia zakresu.
 
-**[Zobacz makiety aplikacji i panelu](design/mockups/v1/README.md)** — sześć ekranów mobilnych i sześć widoków administracji.
+**[Zobacz makiety aplikacji i panelu](design/mockups/v2/README.md)** — sześć ekranów mobilnych i sześć widoków administracji.
 
 ## Od czego zacząć
 

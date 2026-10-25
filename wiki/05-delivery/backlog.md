@@ -8,6 +8,7 @@
 - [ ] Zaplanować kolejność pakietów po pierwszym demo.
 - [x] Przygotować roboczy plan ekranów mobilnych i panelu.
 - [x] Przygotować makiety graficzne v1 i klikalne podglądy.
+- [x] Dostosować paletę do kolorów strony organizatora: czerń, biel, czerwień; makiety v2.
 - [ ] Omówić i zatwierdzić kierunek wizualny.
 - [x] Opisać granice modułów, stany sesji i przepływ AI.
 - [x] Rozpisać wymagania FR/NFR i ręczny odbiór.
