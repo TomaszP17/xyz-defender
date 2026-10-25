@@ -1,6 +1,11 @@
 # Backlog planowania
 
-- [x] Wybrać przedział wieku: 13–15 lat.
+- [x] Wybrać przedział pierwszego demo: 13–15 lat.
+- [x] Ustalić kierunek: propozycja produktu trzeciej odsłony kampanii, docelowo różni odbiorcy.
+- [x] Przygotować brief kampanii i program treści.
+- [ ] Omówić propozycję z organizatorem i potwierdzić kanał współpracy.
+- [ ] Zatwierdzić cele C01–C06, karty i referencje redakcyjne.
+- [ ] Zaplanować kolejność pakietów po pierwszym demo.
 - [x] Przygotować roboczy plan ekranów mobilnych i panelu.
 - [x] Opisać granice modułów, stany sesji i przepływ AI.
 - [x] Rozpisać wymagania FR/NFR i ręczny odbiór.

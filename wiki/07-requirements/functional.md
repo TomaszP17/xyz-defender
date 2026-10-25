@@ -1,6 +1,6 @@
 # Wymagania funkcjonalne
 
-Status: projekt specyfikacji. Grupa: 13–15 lat. P0/P1 zgodnie z [definicją priorytetów](README.md). Identyfikatory ekranów: [plan UX](../01-product/experience.md). Kryteria odbieramy ręcznie; nie planujemy teraz automatycznych testów.
+Status: projekt specyfikacji produktu proponowanej trzeciej odsłony „Metody na Podszywacza”. Demo: 13–15 lat; docelowo różne grupy przez pakiety treści. P0/P1 zgodnie z [definicją priorytetów](README.md). Identyfikatory ekranów: [plan UX](../01-product/experience.md). Kryteria odbieramy ręcznie; nie planujemy teraz automatycznych testów.
 
 ## Uczestnik
 
@@ -30,8 +30,8 @@ Status: projekt specyfikacji. Grupa: 13–15 lat. P0/P1 zgodnie z [definicją pr
 | FR-17 | P0 | Walidacja i publikacja | Brak wymaganej treści lub limit ponad dozwolone maksimum blokuje publikację z opisem błędu. Poprawny scenariusz pojawia się po odświeżeniu katalogu. |
 | FR-18 | P0 | Wersjonowanie | Edycja opublikowanej treści tworzy szkic kolejnej wersji. Trwająca sesja nadal używa starej wersji i tych samych reguł oceny. |
 | FR-19 | P0 | Wycofanie treści | Wycofanie blokuje nowe sesje i kończy aktywne sesje tej wersji komunikatem o niedostępności, bez oceny porażki. |
-| FR-20 | P0 | Przypisanie do kampanii | Demo ma jedną kampanię XYZ. Redaktor przypisuje scenariusz do niej bez wdrożenia nowej aplikacji. |
-| FR-21 | P0 | Zagregowane statystyki | Panel pokazuje rozpoczęcia, ukończenia, przerwania, błędy i wycofania, z wyłączeniem podglądów. Powtórzenie treningu liczy się jako nowa sesja. |
+| FR-20 | P0 | Przypisanie do kampanii | Demo ma jedną proponowaną trzecią odsłonę kampanii XYZ. Redaktor przypisuje scenariusz do niej bez wdrożenia nowej aplikacji. |
+| FR-21 | P0 | Zagregowane statystyki | Panel pokazuje rozpoczęcia, ukończenia, przerwania, błędy i wycofania oraz częstość jawnych decyzji według wersji scenariusza, z wyłączeniem podglądów. Powtórzenie treningu liczy się jako nowa sesja. |
 | FR-22 | P1 | Kopiowanie i wyszukiwanie | Redaktor kopiuje scenariusz do szkicu i filtruje listę według statusu oraz tytułu. |
 
 ## Logika wspólna
@@ -42,5 +42,15 @@ Status: projekt specyfikacji. Grupa: 13–15 lat. P0/P1 zgodnie z [definicją pr
 | FR-24 | P0 | Częściowy wynik | Przerwanie, błąd i wycofanie mają osobne powody zakończenia. Brak obserwacji nie jest automatycznie ryzykowną decyzją. |
 | FR-25 | P0 | Stałe granice treści | Redaktor nie wyłącza etykiety symulacji i ograniczeń aplikacji; interfejs nie prosi o autentyczne sekrety. |
 | FR-26 | P0 | Rozdzielenie sesji i uprawnień | Token jednej sesji nie otwiera innej sesji ani panelu. API uczestnika nie udostępnia instrukcji modelu i wewnętrznych ustawień. |
+
+## Program kampanii
+
+| ID | Priorytet | Wymaganie | Kryterium ręcznego odbioru |
+| --- | --- | --- | --- |
+| FR-27 | P0 | Cel i pochodzenie treści | Redaktor przypisuje scenariuszowi cel C01–C06, referencję materiału i datę przeglądu. Bez celu lub referencji publikacja jest zablokowana. |
+| FR-28 | P0 | Przygotowanie i ochrona bliskich | Uczestnik widzi redagowaną kartę przygotowania oraz po ćwiczeniu wskazówkę ochrony innych. AI nie improwizuje tych treści; samo odczytanie nie daje zaliczenia umiejętności. |
+| FR-29 | P1 | Pakiety odbiorców | Uczestnik wybiera opublikowany pakiet bez daty urodzenia i konta. Zmieniają się konteksty i język; szkice innych grup nie są reklamowane jako dostępne. |
+| FR-30 | P1 | Wejście z materiału kampanii | Dla zainstalowanej aplikacji link może wskazać pakiet lub scenariusz. Niepoprawny lub wycofany cel prowadzi do katalogu. Opcjonalny kod kanału nie identyfikuje osoby. |
+| FR-31 | P1 | Różnicowanie sytuacji | Katalog może zawierać inny pretekst Podszywacza i zwyczajną prośbę do weryfikacji, z właściwym fikcyjnym wynikiem. Każda opublikowana treść nadal spełnia granice symulacji. |
 
 Po hackathonie: historia między urządzeniami, role zatwierdzającego, import scenariuszy, eksport analityki, osobny moduł realnych incydentów i inne mechaniki ćwiczeń.

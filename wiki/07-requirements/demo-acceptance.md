@@ -4,7 +4,7 @@ Nie jest to plan automatycznych testów. Po implementacji wystarczy zapisać dat
 
 | Przebieg | Działanie | Oczekiwany rezultat | Powiązanie |
 | --- | --- | --- | --- |
-| Publikacja → trening | Redaktor tworzy szkic, ogląda podgląd, publikuje; uczestnik odświeża katalog i rozpoczyna trening | Nowa treść widoczna bez wdrożenia; podgląd nie zwiększa statystyk | FR-03, FR-15–17, NFR-16 |
+| Publikacja → trening | Redaktor tworzy szkic z celem kampanii, kartami i referencją, ogląda podgląd, publikuje; uczestnik odświeża katalog i rozpoczyna trening | Nowa treść i karty widoczne bez wdrożenia; podgląd nie zwiększa statystyk | FR-03, FR-15–17, FR-27–28, NFR-16 |
 | Bezpieczna decyzja | Uczestnik wybiera weryfikację innym kanałem | Fikcyjny rezultat weryfikacji i wyjaśnienie zachowania; brak realnego połączenia | FR-06, FR-10 |
 | Ryzykowna decyzja | W nowej sesji wybiera przekazanie fikcyjnych danych | Inne podsumowanie; brak prośby o prawdziwy kod | FR-07, FR-25 |
 | Zmiana treści | Redaktor publikuje nową wersję podczas aktywnego treningu | Stara sesja zachowuje stare reguły; nowe używają nowej wersji | FR-18 |

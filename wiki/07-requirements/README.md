@@ -1,6 +1,6 @@
 # Wymagania projektu
 
-Wersja robocza: 2026-10-25. Zatwierdzono odbiorców 13–15 lat, mobilny charakter produktu, Python, panel treści i kierunek konteneryzacji. Szczegółowe zachowania, parametry i technologie opisane tutaj są propozycją do omówienia.
+Wersja robocza: 2026-10-25. Zatwierdzono kierunek produktu proponowanej trzeciej odsłony „Metody na Podszywacza”, docelowo różnych odbiorców, demo 13–15 lat, mobile, Python, panel treści i kierunek konteneryzacji. Szczegółowe zachowania, parametry i technologie opisane tutaj są propozycją do omówienia.
 
 - [Wymagania funkcjonalne](functional.md): co produkt robi i jak ręcznie odebrać funkcję.
 - [Wymagania niefunkcjonalne](non-functional.md): jakość, ograniczenia i docelowe parametry demonstracji.

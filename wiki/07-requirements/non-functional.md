@@ -22,6 +22,13 @@ Status: proponowane cele demo, bez gwarancji produkcyjnych i bez automatycznych 
 | NFR-16 | Edytowalność | P0 | Nowy scenariusz istniejącego typu widoczny po publikacji i odświeżeniu listy, bez budowania mobile ani wdrażania backendu. Nowa mechanika może wymagać kodu. |
 | NFR-17 | Praca agentowa | P0 | Każde zadanie wskazuje FR/NFR, źródłowy dokument, dozwolone pliki i ręczny odbiór. Wersje treści i kontrakt API mają jedno źródło prawdy. |
 
+## Jakość programu kampanii
+
+| ID | Obszar | Priorytet | Proponowane wymaganie i ręczne sprawdzenie |
+| --- | --- | --- | --- |
+| NFR-18 | Dopasowanie treści | P0 | Teksty i stopień presji są przypisane do pakietu; pierwsze demo sprawdzamy dla kontekstu 13–15 lat. Inna grupa wymaga redakcyjnego przeglądu. Nie twierdzimy, że opublikowanie wariantu tekstowego dowodzi dostępności dla każdego wieku. |
+| NFR-19 | Wiarygodność edukacji | P0 | Wynik opisuje wyłącznie obserwacje z ćwiczenia. Brak deklaracji pełnej odporności, certyfikacji użytkownika i redukcji strat bez badań. Wskazówki mają referencję redakcyjną i nie wynikają z dowolnej wypowiedzi AI. |
+
 ## Granice hackathonu
 
 Brak zobowiązań do wysokiej dostępności, autoskalowania, disaster recovery, pełnego audytu prawnego i publikacji w sklepach. Przed rzeczywistym pilotażem osobno uzgadniamy dostawcę AI, retencję, zasady pracy z niepełnoletnimi i proces bezpieczeństwa. Obecnie demonstrujemy rozwiązanie na syntetycznych danych.

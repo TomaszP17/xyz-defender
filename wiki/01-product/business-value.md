@@ -1,24 +1,34 @@
-# Wartość biznesowa
+# Wartość dla kampanii XYZ
 
-## Hipoteza
+## Główna hipoteza
 
-Kampania XYZ może zaoferować ćwiczenie zachowania po kontakcie z materiałem edukacyjnym. Zespół kampanii może dodawać nowe scenariusze bez zmiany kodu aplikacji.
+Proponowana trzecia odsłona „Metody na Podszywacza” oferuje produkt, w którym odbiorca ćwiczy reakcję, a organizator rozwija i ocenia program edukacyjny. Nie jest to wyłącznie jednorazowy pokaz AI.
 
-## Co demonstrujemy
+## Korzyści do sprawdzenia
 
-- Redaktor publikuje nowy scenariusz samodzielnie.
-- Użytkownik przechodzi krótkie ćwiczenie na telefonie.
-- Otrzymuje wyjaśnienie konkretnych decyzji.
-- Organizator widzi zagregowane rozpoczęcia i ukończenia.
+| Odbiorca | Oczekiwana korzyść | Co można zaobserwować |
+| --- | --- | --- |
+| Uczestnik | Możliwość spokojnego przećwiczenia presji i weryfikacji | Jawne decyzje i zrozumienie informacji zwrotnej |
+| Organizator kampanii | Konkretna aktywność po kontakcie z materiałem promocyjnym | Rozpoczęcia, ukończenia, koszt treningu |
+| Zespół edukacji i treści | Dodawanie sytuacji i pakietów bez kolejnego wdrożenia | Publikacja przez panel, wykorzystanie nowych treści |
+| Rodzina lub prowadzący zajęcia | Punkt wyjścia do rozmowy o reakcji i ochronie bliskich | Ocena przydatności podczas późniejszych wywiadów |
 
-## Mierniki
+## Mierniki hackathonu
 
-Na hackathon: uruchomienia, ukończenia, decyzje w ćwiczeniu i szacowany koszt sesji. Bez przedstawiania fikcyjnych wyników jako wyników badań.
+Sesje rozpoczęte i ukończone, powody zakończenia, częstość jawnych decyzji i koszt wywołań modelu. Statystyki według scenariusza, jego wersji i pakietu, jeśli jest obsługiwany. Podgląd redaktora nie wchodzi do pomiaru.
 
-Późniejsza walidacja: nowe zadanie po treningu, porównanie z samym materiałem kampanii i utrzymanie efektu po czasie. Wynik w grze nie dowodzi ograniczenia strat finansowych.
+Liczba sesji nie oznacza liczby osób. Wybór bezpiecznej akcji w symulacji nie dowodzi gotowości w rzeczywistym zagrożeniu. Nie pokazujemy fikcyjnych danych jako wyników kampanii.
 
-## Ryzyka
+## Późniejsza walidacja
 
-Instalacja aplikacji może ograniczać wejścia z kampanii. Powrót codzienny nie musi być głównym celem jednorazowej akcji. Zaufanie do dystrybucji, przydatność dla danej grupy wieku i wygoda panelu wymagają sprawdzenia.
+Porównanie materiału kampanii z materiałem i treningiem, nowa sytuacja sprawdzająca oraz pomiar po czasie. Oceniajmy nie tylko wykrywanie oszustwa, ale też prawidłową weryfikację zwyczajnej, legalnej prośby. Produkt powinien uczyć rozważnego działania, nie automatycznego uznawania każdej wiadomości za atak.
 
-Monetyzacja i sponsor są otwarte. Nie zakładamy płatnej subskrypcji dzieci.
+Przypisanie wejść do kanałów kampanii jest P1; wystarczą kody materiału lub kanału bez identyfikatorów reklamowych osoby. Pełnego lejka instalacji nie zmierzymy samymi licznikami sesji backendu. Model pomiaru wymaga uzgodnienia z właścicielem kanałów.
+
+## Koszt i trwałość programu
+
+Możliwy model: finansowanie przez organizatora kampanii lub partnerów. Brak założenia subskrypcji płatnej przez dzieci. Jedna aplikacja i redagowalne pakiety pozwalają rozwijać program między odsłonami; opłacalność pozostaje hipotezą do policzenia na podstawie kosztu AI, utrzymania i pracy nad treściami.
+
+## Najważniejsze ryzyka
+
+Instalacja ograniczająca konwersję z reklamy, zaufanie do źródła aplikacji, brak partnera decyzyjnego i niedopasowanie treści do odbiorców. Zakończenie krótkiego treningu może być ważniejsze niż codzienna retencja. Publikacja w kanałach organizatora wymaga faktycznej współpracy.

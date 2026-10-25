@@ -14,6 +14,9 @@
 | D10 | Czy istnieje sponsor i kanał współpracy z kampanią XYZ? | Weryfikacja wartości |
 | D11 | Jaki klaster i domena? | Wdrożenie |
 | D12 | Jak organizujemy pilotaż z niepełnoletnimi? | Warunki rzeczywistego użycia |
+| D13 — kierunek ustalony | Propozycja produktu trzeciej odsłony, docelowo dla różnych odbiorców; ADR 0003 | Wizja i program kampanii |
+| D14 | Które pakiety po pierwszym demo i kto zredaguje treści? | Kolejność rozwoju |
+| D15 | Jak organizator udostępni produkt i skąd poprowadzi do treningu? | Dystrybucja i pomiar wejść |
 
 Dodatkowo do akceptacji: parametry NFR, zasada wycofywania aktywnych sesji i proponowany zakres P0.
 

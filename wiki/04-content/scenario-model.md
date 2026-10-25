@@ -6,7 +6,8 @@ Status: propozycja dla pierwszej grupy 13–15 lat. Powiązania: FR-15–19, FR-
 
 | Sekcja | Pola | Walidacja |
 | --- | --- | --- |
-| Podstawy | Tytuł, opis, kampania, grupa wieku, czas orientacyjny | Wymagane; pierwsze demo obejmuje 13–15 lat |
+| Podstawy | Tytuł, opis, odsłona kampanii, pakiet odbiorców, czas orientacyjny | Wymagane; pierwsze demo obejmuje 13–15 lat |
+| Program | Cel C01–C06, karta przygotowania, wskazówka ochrony innych, referencja materiału i data przeglądu | Cel i referencja wymagane przed publikacją; kart nie generuje swobodnie AI |
 | Fikcyjny kontekst | Imię postaci, sytuacja, wiadomość startowa | Brak rzeczywistych kontaktów i sekretów |
 | Rozmowa | Cel dialogu, ograniczone warianty nacisku, maksymalna liczba tur | Limit nie przekracza maksimum aplikacji; bez nowych narzędzi modelu |
 | Decyzje | Wybór akcji z obsługiwanej listy, skutek i warunek zakończenia | Tylko akcje znane silnikowi treningu |
@@ -14,6 +15,8 @@ Status: propozycja dla pierwszej grupy 13–15 lat. Powiązania: FR-15–19, FR-
 | Zakończenie | Feedback dla wariantów, neutralna treść przerwania i braku obserwacji | Brak automatycznej porażki za niepełne dane |
 
 Redaktor wypełnia formularz. Nie edytuje bazowego promptu systemowego i nie musi pisać JSON. Nowy scenariusz istniejącego typu nie wymaga kodu; nowy typ interakcji może go wymagać.
+
+Program i cele: [katalog kampanii](campaign-curriculum.md). Pierwszy scenariusz wiążemy z C02–C04, a C01 i C05 pokazujemy w kartach. Inne grupy odbiorców to kolejne redagowane warianty, bez dodawania nowych usług.
 
 ## Przykład roboczy SC-01 — pilna wiadomość od znajomego
 

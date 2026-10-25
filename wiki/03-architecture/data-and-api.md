@@ -6,9 +6,9 @@ Status: projekt kontraktu w Markdown; bez generowania OpenAPI i kodu na obecnym 
 
 | Pojęcie | Minimalne dane | Reguła |
 | --- | --- | --- |
-| Campaign | Identyfikator, nazwa, aktywność | Jedna kampania XYZ wystarcza do demo |
+| Campaign | Identyfikator, nazwa, etykieta odsłony, aktywność | Jedna proponowana trzecia odsłona kampanii XYZ wystarcza do demo |
 | Scenario | Identyfikator, powiązanie z kampanią | Stała tożsamość niezależna od wersji |
-| ScenarioVersion | Numer, status, treści, cele, działania, limity, feedback | Opublikowana wersja nie jest edytowana w miejscu |
+| ScenarioVersion | Numer, status, pakiet odbiorców, cele C01–C06, karty edukacyjne, referencje treści, działania, limity, feedback | Opublikowana wersja nie jest edytowana w miejscu |
 | TrainingSession | Losowy identyfikator, skrót tokenu, wersja, kampania, status, terminy, tryb preview | Jedna sesja to jedno podejście, nie unikalny człowiek |
 | Turn | Sesja, numer, wiadomości, stan operacji | Krótkotrwały zapis do prowadzenia rozmowy; retencja do decyzji |
 | Decision | Sesja, typ działania, czas | Bez kopiowania całej wypowiedzi uczestnika do dowodu |
@@ -16,6 +16,8 @@ Status: projekt kontraktu w Markdown; bez generowania OpenAPI i kodu na obecnym 
 | Operation | Identyfikator, sesja, stan, czas i wynik techniczny | Deduplikacja i obsługa operacji przerwanej restartem |
 
 Django zapewni osobne konta i sesje redaktorów, jeśli zatwierdzimy tę technologię. Brak tabeli profilu dziecka w proponowanym P0.
+
+Pakiet jest metadanymi wersji, początkowo stałym kodem dla 13–15 lat. Nie wymaga osobnej usługi ani profilu odbiorcy. W P1 można udostępnić listę dostępnych pakietów w metadanych katalogu. Kod źródła kampanii, jeśli dodany, jest opcjonalną etykietą materiału, nie identyfikatorem osoby.
 
 ## Dostęp uczestnika
 
@@ -27,13 +29,13 @@ Minimalny wariant demo przechowuje token tylko na czas bieżącego uruchomienia 
 
 | Operacja | Ścieżka | Zachowanie |
 | --- | --- | --- |
-| Lista | GET /api/v1/scenarios | Wyłącznie bieżące dostępne treści publiczne |
-| Szczegóły | GET /api/v1/scenarios/{id} | Opis do ekranu M03, bez ustawień wewnętrznych |
+| Lista | GET /api/v1/scenarios | Wyłącznie bieżące dostępne treści publiczne; pakiet i cel kampanii, opcjonalny filtr pakietu w P1 |
+| Szczegóły | GET /api/v1/scenarios/{id} | Opis i karta przygotowania do M03, bez ustawień wewnętrznych |
 | Start | POST /api/v1/sessions | Scenariusz i identyfikator operacji; wynik zawiera token i początek rozmowy |
 | Stan | GET /api/v1/sessions/{id} | Status i publiczny zapis sesji dostępny właścicielowi tokenu |
 | Tura | POST /api/v1/sessions/{id}/turns | Tekst albo identyfikator dozwolonej akcji, identyfikator operacji i rewizja |
 | Zakończenie | POST /api/v1/sessions/{id}/finish | Przerwanie, także podczas trwającego wywołania AI |
-| Wynik | GET /api/v1/sessions/{id}/feedback | Obserwacje, wskazówki i powód zakończenia |
+| Wynik | GET /api/v1/sessions/{id}/feedback | Obserwacje, redagowana wskazówka ochrony innych i powód zakończenia |
 
 Start wykorzystuje dodatkowy losowy sekret idempotencji klienta, niezależny od publicznego ID operacji, aby bezpiecznie zwrócić tę samą sesję po utracie odpowiedzi. Szczegółowy format i czas ważności ustalamy w kontrakcie przed implementacją.
 

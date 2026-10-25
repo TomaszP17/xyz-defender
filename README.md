@@ -1,6 +1,6 @@
 # XYZ Defender
 
-Mobilny trener bezpiecznych reakcji na oszustwa dla dzieci i młodzieży. Pierwszy prototyp: 13–15 lat.
+Mobilny produkt proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. Docelowo dla różnych grup odbiorców; pierwszy prototyp: 13–15 lat.
 
 Status: planowanie projektu hackathonowego. Repozytorium zawiera wyłącznie dokumentację Markdown. Nie rozpoczynamy implementacji bez uzgodnienia zakresu.
 
@@ -8,7 +8,7 @@ Status: planowanie projektu hackathonowego. Repozytorium zawiera wyłącznie dok
 
 1. [Instrukcje dla agentów](AGENTS.md).
 2. [Mapa wiki](wiki/README.md).
-3. [Wizja produktu](wiki/01-product/vision.md).
+3. [Wizja produktu](wiki/01-product/vision.md) i [propozycja trzeciej odsłony](wiki/01-product/campaign-third-edition.md).
 4. [Zakres hackathonu](wiki/02-scope/hackathon.md).
 5. [Architektura](wiki/03-architecture/overview.md).
 6. [Wymagania funkcjonalne i niefunkcjonalne](wiki/07-requirements/README.md).

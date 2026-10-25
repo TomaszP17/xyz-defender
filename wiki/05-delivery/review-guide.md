@@ -1,6 +1,6 @@
 # Plan omówienia projektu
 
-Celem jest wspólne doprecyzowanie doświadczenia, architektury i wymagań przed kodowaniem. Czytaj w kolejności:
+Celem jest zaplanowanie produktu proponowanej trzeciej odsłony „Metody na Podszywacza”. Zacznij od [briefu kampanii](../01-product/campaign-third-edition.md), [odbiorców](../01-product/audiences.md) i [programu treści](../04-content/campaign-curriculum.md). Następnie czytaj:
 
 1. [Plan ekranów i ścieżek](../01-product/experience.md): czy tak ma wyglądać trening dla wieku 13–15 lat?
 2. [Proces redakcyjny](../04-content/editorial-workflow.md): czy organizator potrafi samodzielnie opublikować treść?
@@ -11,6 +11,8 @@ Celem jest wspólne doprecyzowanie doświadczenia, architektury i wymagań przed
 
 ## Decyzje w pierwszej kolejności
 
+- Potwierdzenie z organizatorem propozycji trzeciej odsłony, dystrybucji oraz zasad redagowania materiałów.
+- Omówienie celów programu i priorytetów pakietów dla kolejnych odbiorców.
 - Zatwierdzenie lub zmiana Django, panelu Admin, DRF, PostgreSQL i Expo.
 - Akceptacja rozmowy swobodnej z oceną opartą na jawnych działaniach zamiast interpretacji AI.
 - Jeden pełny scenariusz P0 jako pionowa ścieżka demo; liczba kolejnych zależna od czasu.

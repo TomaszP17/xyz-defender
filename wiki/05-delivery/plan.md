@@ -2,11 +2,13 @@
 
 ## Etap 0 — uzgodnienie
 
+Kierunek: produkt proponowanej trzeciej odsłony kampanii, ze wspólnym programem dla różnych odbiorców. Przygotować rozmowę z organizatorem i propozycję dystrybucji, bez zakładania jego zgody.
+
 Wiek 13–15 lat zatwierdzony. Przyjąć stos, ustalić czas hackathonu i pełny przebieg demonstracji. Rezultat: krótka zatwierdzona specyfikacja.
 
 ## Etap 1 — projekt treści i ekranów
 
-Opisać pierwszy scenariusz, formularz redakcyjny, katalog mobilny, rozmowę i wynik. Ustalić reguły oceny oraz warunki zakończenia. Robocze opisy ekranów, architektury i FR/NFR są już zapisane. Rezultat etapu: omówiona dokumentacja umożliwiająca małe zadania agentów.
+Opisać pierwszy scenariusz podszywania się pod znajomego, cel kampanii, karty edukacyjne, formularz redakcyjny, katalog mobilny, rozmowę i wynik. Ustalić reguły oceny oraz warunki zakończenia. Robocze opisy ekranów, architektury i FR/NFR są już zapisane. Rezultat etapu: omówiona dokumentacja umożliwiająca małe zadania agentów.
 
 ## Etap 2 — implementacja, dopiero po osobnym poleceniu
 

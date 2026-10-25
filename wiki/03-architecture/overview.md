@@ -2,6 +2,10 @@
 
 Status: projekt do zatwierdzenia, 2026-10-25. Ustalone: Python, mobile, panel scenariuszy i konteneryzacja z możliwością wdrożenia na Kubernetes. Proponowane: Django, DRF, PostgreSQL i React Native z Expo.
 
+## Kontekst kampanii
+
+Projekt służy proponowanej trzeciej odsłonie „Metody na Podszywacza”. Pakiet odbiorców, cele edukacyjne i karty przygotowania są danymi treści, nie dodatkowymi serwisami. Na hackathon jedna odsłona kampanii i domyślny pakiet 13–15 lat; inne grupy rozwijamy w tym samym produkcie. Program opisuje [wiki treści](../04-content/campaign-curriculum.md).
+
 ## Granice systemu
 
 | Element | Odpowiedzialność | Komunikacja |
@@ -18,11 +22,11 @@ Jeden backend i jedna baza. Panel nie jest drugim serwisem ani frontendem SPA. A
 
 | Moduł | Właściciel danych | Udostępniane operacje | Główne FR |
 | --- | --- | --- | --- |
-| content | Scenariusze, wersje, reguły i teksty feedbacku | Pobierz dostępną wersję, zapisz szkic, opublikuj, wycofaj | FR-03, FR-15–19 |
+| content | Scenariusze, wersje, pakiet odbiorców, cele, karty edukacyjne i feedback | Pobierz dostępną wersję, zapisz szkic, opublikuj, wycofaj | FR-03, FR-15–19, FR-27–29 |
 | training | Sesje, tury i decyzje | Rozpocznij, odpowiedz, wykonaj działanie, zakończ | FR-04–09, FR-12 |
 | evaluation | Wynik i obserwacje kryteriów | Oceń zakończoną sesję na podstawie jej wersji | FR-10, FR-24 |
 | ai | Konfiguracja adaptera i metadane wywołań | Wygeneruj ograniczoną wypowiedź albo zwróć błąd | FR-05, FR-23, FR-25 |
-| campaigns | Kampania i zapytania agregujące | Przypisz scenariusze, policz wykorzystanie | FR-20–21 |
+| campaigns | Kampania i zapytania agregujące | Przypisz scenariusze, policz wykorzystanie | FR-20–21, FR-30 |
 | administration | Konta redaktorów i widoki panelu | Dostęp do operacji domenowych po sprawdzeniu uprawnień | FR-14–22 |
 
 Kierunek zależności: panel/API → operacje domenowe; training → content, ai i evaluation; campaigns odczytuje metadane sesji do agregatów. Moduł AI nie zna panelu i nie wykonuje operacji w bazie. Wszystkie wejścia do publikacji korzystają z tej samej walidacji.

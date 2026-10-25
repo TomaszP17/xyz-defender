@@ -1,17 +1,29 @@
 # Wizja XYZ Defender
 
-## Ustalone
+Status: kierunek uzgodniony z właścicielem 2026-10-25. Szczegółowy projekt i zakres implementacji pozostają do omówienia.
 
-Mobilna aplikacja edukacyjna dla dzieci i młodzieży. Pierwszy prototyp obejmuje wiek 13–15 lat, zatwierdzony 2026-10-25. Użytkownik ćwiczy bezpieczne reakcje na próby podszywania się i manipulacji w fikcyjnej rozmowie. Organizator zarządza treściami przez panel administracyjny.
+## Cel produktu
 
-Projekt zaczyna się jako hackathon, ale ma przedstawiać rzeczywistą wartość dla kampanii edukacyjnej XYZ dotyczącej podszywania się. Nie zakładamy formalnej współpracy ani prawa do użycia cudzej identyfikacji.
+Mobilny produkt edukacyjny proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ. Odbiorca przechodzi od poznania zagrożenia do ćwiczenia własnych reakcji w kontrolowanej symulacji i otrzymuje wyjaśnienie, jak chronić siebie oraz bliskich.
+
+Hasło robocze propozycji: **„Przećwicz swoją metodę na Podszywacza”.** To nasza koncepcja, nie zapowiedziane hasło ani oficjalny plan organizatora.
+
+## Odbiorcy
+
+Docelowo dzieci, młodzież, dorośli, rodziny i seniorzy. Pierwszy prototyp obejmuje wiek 13–15 lat. Wspólny produkt rozwijamy przez odpowiednie dla odbiorców pakiety treści; nie zakładamy jednego języka, tempa i nacisku dla wszystkich grup.
+
+## Centralny mechanizm
+
+Koncentrujemy się na schemacie podszywania po przejęciu konta społecznościowego: zaufany profil → pilna prośba → presja → próba uzyskania kodu płatniczego lub zatwierdzenia operacji. Edukacja obejmuje też przygotowanie przed kontaktem i ochronę innych po rozpoznaniu próby.
+
+Rdzeń nie wymaga posiadania konta bankowego: młody odbiorca może nauczyć się weryfikacji osoby, nieprzekazywania sekretów i proszenia zaufanego dorosłego o wsparcie.
+
+## Rola kampanii i panelu
+
+Organizator kieruje odbiorców do ćwiczeń z materiałów kampanii. Redaktor rozwija scenariusze, przypisuje odbiorców i cele, aktualizuje teksty oraz obserwuje wykorzystanie. Docelowe publikowanie przez oficjalne kanały jest założeniem biznesowym do uzgodnienia z organizatorem.
 
 ## Hipoteza wartości
 
-Krótki, interaktywny trening pomaga przełożyć ostrzeżenie z kampanii na konkretną decyzję: zatrzymanie rozmowy, weryfikację innym kanałem i zwrócenie się do zaufanej osoby dorosłej.
+Ćwiczenie reakcji w różnych wariantach tej samej manipulacji może pomóc przenieść wiedzę na nowe sytuacje. Panel i wspólny silnik pozwalają aktualizować program bez budowania osobnej aplikacji na każdą odsłonę. Nie mamy jeszcze dowodu poprawy rzeczywistych zachowań ani redukcji oszustw.
 
-Adaptacja dialogu ma służyć celom edukacyjnym. Produkt nie jest ogólnym chatbotem ani narzędziem autoryzacji płatności.
-
-## Otwarte
-
-Kanał dotarcia, kontekst rodzinny lub szkolny, udział opiekuna oraz forma pilotażu. Nie przenosimy automatycznie scenariuszy dla dorosłych na młodsze dzieci.
+Szczegóły: [koncepcja trzeciej odsłony](campaign-third-edition.md), [odbiorcy i pakiety](audiences.md), [program treści](../04-content/campaign-curriculum.md).
