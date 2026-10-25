@@ -7,7 +7,7 @@ Przeczytaj README.md, agents/working-agreement.md, wiki/05-delivery/status.md i 
 ## Obowiązujące ustalenia
 
 - Pracujemy po polsku. Nazwa projektu i partnera: wyłącznie XYZ.
-- Obecny etap to dokumentacja i makiety. Domyślnie pracuj w `.md`; właściciel 2026-10-25 zlecił także makiety graficzne, zapisane w `design/mockups/`. To nie jest zgoda na kod aplikacji, scaffolding, manifesty i instalację zależności projektu. Klikalne źródła makiet są poza repozytorium w `Desktop/xyz-defender-mockups`.
+- Obecny etap to dokumentacja, makiety i prezentacja produktu. Domyślnie pracuj w `.md`; właściciel 2026-10-25 zlecił także makiety graficzne, zapisane w `design/mockups/`. To nie jest zgoda na kod aplikacji, scaffolding, manifesty i instalację zależności projektu. Właściciel zlecił także prezentację produktu: pliki PPTX/PDF i opis w `presentations/`. To nadal etap planowania produktu. Klikalne źródła makiet są poza repozytorium w `Desktop/xyz-defender-mockups`.
 - Pierwszy prototyp kierujemy do wieku 13–15 lat, zgodnie z decyzją właściciela z 2026-10-25. Szersza wizja obejmuje dzieci, młodzież, dorosłych, rodziny i seniorów przez odpowiednio opracowane pakiety.
 - Produkt proponujemy jako trzecią odsłonę „Metody na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. To kierunek produktu, nie ogłoszony plan organizatora. Przeczytaj wiki/01-product/campaign-third-edition.md.
 - Paleta makiet: czarny, biały i czerwony odczytane ze strony organizatora; aktualna wersja `design/mockups/v2/`. Źródło wartości: `design/mockups/v2/palette.md`. Zachowaj nazwę XYZ.

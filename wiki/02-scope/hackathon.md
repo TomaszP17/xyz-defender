@@ -2,7 +2,7 @@
 
 ## Ustalone granice
 
-Backend Python, aplikacja mobilna, panel scenariuszy, prosta architektura i możliwość wdrożenia kontenerowego na Kubernetes. Teraz tworzymy wyłącznie Markdown.
+Backend Python, aplikacja mobilna, panel scenariuszy, prosta architektura i możliwość wdrożenia kontenerowego na Kubernetes. Teraz tworzymy dokumentację, makiety i materiały prezentacyjne. Implementacja produktu wymaga osobnego polecenia.
 
 ## Cel i proponowany rdzeń demonstracji
 

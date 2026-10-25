@@ -1,6 +1,6 @@
 # Status projektu
 
-Data: 2026-10-25. Etap: planowanie, dokumentacja i makiety graficzne, bez implementacji produktu.
+Data: 2026-10-25. Etap: planowanie, dokumentacja, makiety graficzne i prezentacja, bez implementacji produktu.
 
 ## Potwierdzone
 
@@ -11,6 +11,8 @@ Kierunek: propozycja produktu trzeciej odsłony „Metody na Podszywacza” orga
 Plan sześciu ekranów mobilnych i sześciu widoków panelu, granice modułów, przepływ tury AI, stany sesji, wersjonowanie treści, propozycja danych i operacji API, wdrożenie, 31 wymagań funkcjonalnych i 19 niefunkcjonalnych oraz ścieżki ręcznego odbioru. Uzupełniono brief proponowanej trzeciej odsłony, pakiety odbiorców i program C01–C06. To specyfikacja robocza, nie działająca aplikacja; współpraca z organizatorem nie jest potwierdzona.
 
 Przygotowano [makiety graficzne v2](../01-product/mockups.md): sześć ekranów mobile i sześć widoków panelu oraz lokalne podglądy klikalne. Właściciel wybrał czerń, biel i czerwień ze strony organizatora; v2 stosuje tę paletę. Układ pozostaje do omówienia.
+
+Przygotowano [prezentację produktu](../../presentations/v1/README.md): 11 slajdów w PowerPoint i PDF. Prezentacja opisuje koncepcję, działanie oraz oczekiwany użytek dla kampanii i zawiera makiety v2.
 
 ## Propozycje do zatwierdzenia
 

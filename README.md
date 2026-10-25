@@ -6,6 +6,8 @@ Status: planowanie projektu hackathonowego. Repozytorium zawiera dokumentację M
 
 **[Zobacz makiety aplikacji i panelu](design/mockups/v2/README.md)** — sześć ekranów mobilnych i sześć widoków administracji.
 
+**[Prezentacja produktu: PowerPoint i PDF](presentations/v1/README.md)** — czym jest produkt, jak działa i jak może służyć kampanii.
+
 ## Od czego zacząć
 
 1. [Instrukcje dla agentów](AGENTS.md).
@@ -29,6 +31,7 @@ Status: planowanie projektu hackathonowego. Repozytorium zawiera dokumentację M
 - `wiki/07-requirements/` — wymagania, priorytety i kryteria ręcznego odbioru.
 
 - `design/mockups/` — wersjonowane makiety graficzne i ich opis.
+- `presentations/` — prezentacja produktu i jej opis.
 
 Nie tworzymy teraz katalogów kodu ani konfiguracji narzędzi. Struktura implementacji pozostaje propozycją w wiki.
 
