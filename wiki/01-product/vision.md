@@ -4,7 +4,7 @@ Status: kierunek uzgodniony z właścicielem 2026-10-25. Szczegółowy projekt i
 
 ## Cel produktu
 
-Mobilny produkt edukacyjny proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ. Odbiorca przechodzi od poznania zagrożenia do ćwiczenia własnych reakcji w kontrolowanej symulacji i otrzymuje wyjaśnienie, jak chronić siebie oraz bliskich.
+Produkt edukacyjny z aplikacją mobilną i wariantem przeglądarkowym, proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ. Trening może działać bezpośrednio na stronie XYZ w sekcji „Metoda na Podszywacza”, bez instalacji. Odbiorca przechodzi od poznania zagrożenia do ćwiczenia własnych reakcji w kontrolowanej symulacji i otrzymuje wyjaśnienie, jak chronić siebie oraz bliskich.
 
 Hasło robocze propozycji: **„Przećwicz swoją metodę na Podszywacza”.** To nasza koncepcja, nie zapowiedziane hasło ani oficjalny plan organizatora.
 
@@ -22,8 +22,14 @@ Rdzeń nie wymaga posiadania konta bankowego: młody odbiorca może nauczyć si�
 
 Organizator kieruje odbiorców do ćwiczeń z materiałów kampanii. Redaktor rozwija scenariusze, przypisuje odbiorców i cele, aktualizuje teksty oraz obserwuje wykorzystanie. Docelowe publikowanie przez oficjalne kanały jest założeniem biznesowym do uzgodnienia z organizatorem.
 
+## Dwa kanały dostępu
+
+Strona kampanii może służyć pierwszemu krótkiemu ćwiczeniu po kontakcie z materiałem. Aplikacja mobilna pozostaje częścią produktu i może służyć kolejnym treningom. Oba kanały powinny współdzielić panel, scenariusze i reguły oceniania. Forma publikacji i termin web wymagają uzgodnienia. [Architektura web i mobile](../03-architecture/web-and-mobile.md).
+
 ## Hipoteza wartości
 
 Ćwiczenie reakcji w różnych wariantach tej samej manipulacji może pomóc przenieść wiedzę na nowe sytuacje. Panel i wspólny silnik pozwalają aktualizować program bez budowania osobnej aplikacji na każdą odsłonę. Nie mamy jeszcze dowodu poprawy rzeczywistych zachowań ani redukcji oszustw.
+
+[Katalog 22 możliwości i rekomendowane priorytety](opportunity-catalog.md) opisuje dalsze zastosowania bez dopisywania ich wszystkich do MVP.
 
 Szczegóły: [koncepcja trzeciej odsłony](campaign-third-edition.md), [odbiorcy i pakiety](audiences.md), [program treści](../04-content/campaign-curriculum.md).

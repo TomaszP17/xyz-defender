@@ -17,6 +17,10 @@
 | D13 — kierunek ustalony | Propozycja produktu trzeciej odsłony, docelowo dla różnych odbiorców; ADR 0003 | Wizja i program kampanii |
 | D14 | Które pakiety po pierwszym demo i kto zredaguje treści? | Kolejność rozwoju |
 | D15 | Jak organizator udostępni produkt i skąd poprowadzi do treningu? | Dystrybucja i pomiar wejść |
+| D16 — kierunek ustalony | Trening może działać na stronie XYZ w sekcji „Metoda na Podszywacza”; ADR 0004 | Dwa kanały produktu |
+| D17 | Czy klient web powstaje na hackathon czy przed pilotażem? | Zakres i kolejność |
+| D18 | Moduł w serwisie, link do uzgodnionego adresu czy iframe? | Dostęp do strony i bezpieczeństwo |
+| D19 | Które możliwości O01–O22 wybieramy po rdzeniu? | Priorytety i budżet |
 
 Dodatkowo do akceptacji: parametry NFR, zasada wycofywania aktywnych sesji i proponowany zakres P0.
 

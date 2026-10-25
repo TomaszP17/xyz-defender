@@ -6,11 +6,16 @@ Status: projekt do zatwierdzenia, 2026-10-25. Ustalone: Python, mobile, panel sc
 
 Projekt służy proponowanej trzeciej odsłonie „Metody na Podszywacza”. Pakiet odbiorców, cele edukacyjne i karty przygotowania są danymi treści, nie dodatkowymi serwisami. Na hackathon jedna odsłona kampanii i domyślny pakiet 13–15 lat; inne grupy rozwijamy w tym samym produkcie. Program opisuje [wiki treści](../04-content/campaign-curriculum.md).
 
+## Dodatkowy kanał kampanii
+
+Właściciel wskazał zastosowanie także na stronie XYZ w sekcji „Metoda na Podszywacza”. Klient web może prowadzić to samo ćwiczenie bez instalacji i korzystać ze wspólnego API, scenariuszy oraz panelu. Termin i forma integracji są otwarte. [Szczegóły web/mobile](web-and-mobile.md).
+
 ## Granice systemu
 
 | Element | Odpowiedzialność | Komunikacja |
 | --- | --- | --- |
 | Aplikacja mobilna | Ekrany M01–M06, tekst uczestnika, jawne działania, prezentacja wyniku | HTTPS/JSON do API |
+| Klient web — planowany kanał | Responsywny trening w sekcji kampanii lub pod uzgodnionym adresem | HTTPS/JSON do wspólnego API |
 | Backend Python | Reguły treningu, publikacja, ocena, uprawnienia i adapter AI | Jedna baza i wywołania HTTPS dostawcy modelu |
 | Panel redakcyjny | Formularze i statystyki organizatora, proponowany Django Admin | Ten sam backend; uwierzytelniona sesja przeglądarki |
 | PostgreSQL | Scenariusze, wersje, sesje, decyzje i wyniki | Dostęp tylko z backendu |
@@ -51,6 +56,7 @@ Feedback opiera się na zatwierdzonych tekstach scenariusza. Nie potrzebujemy dr
 ## Przyszła struktura kodu — jeszcze jej nie tworzymy
 
 - `apps/mobile/` — klient, ekrany i adapter API.
+- `apps/web/` — ewentualna cienka warstwa web, jeśli nie współdzielimy ekranów Expo; decyzja przed implementacją.
 - `services/backend/` — backend, panel i opisane moduły.
 - `contracts/` — późniejszy kontrakt API, po autoryzacji implementacji.
 - `deploy/` — późniejsze pliki kontenera i Kubernetes.

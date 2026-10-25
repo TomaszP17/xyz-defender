@@ -18,6 +18,10 @@ Najpierw treść od panelu do katalogu mobilnego. Następnie sesja i wynik. Pote
 
 Konteneryzacja, baza, migracje i Kubernetes. Ręczne przejście scenariusza od publikacji do wyniku; sprawdzenie przerwania sesji i błędu modelu. Bez rozbudowy programu automatycznych testów.
 
+## Kanał strony kampanii
+
+Przed szerszą kampanią rekomendujemy lekki trening web w sekcji „Metoda na Podszywacza” albo pod zatwierdzonym adresem. Termin wobec prototypu mobilnego wymaga decyzji. Wspólny backend i panel ograniczają dublowanie pracy. [Architektura kanałów](../03-architecture/web-and-mobile.md).
+
 ## Etap 4 — decyzja o dalszym rozwoju
 
 Omówienie z zespołem kampanii, walidacja potrzeb i plan pilotażu. Produkcyjne utwardzanie, badania skuteczności i publiczna dystrybucja stanowią osobny zakres.

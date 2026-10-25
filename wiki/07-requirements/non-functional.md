@@ -29,6 +29,13 @@ Status: proponowane cele demo, bez gwarancji produkcyjnych i bez automatycznych 
 | NFR-18 | Dopasowanie treści | P0 | Teksty i stopień presji są przypisane do pakietu; pierwsze demo sprawdzamy dla kontekstu 13–15 lat. Inna grupa wymaga redakcyjnego przeglądu. Nie twierdzimy, że opublikowanie wariantu tekstowego dowodzi dostępności dla każdego wieku. |
 | NFR-19 | Wiarygodność edukacji | P0 | Wynik opisuje wyłącznie obserwacje z ćwiczenia. Brak deklaracji pełnej odporności, certyfikacji użytkownika i redukcji strat bez badań. Wskazówki mają referencję redakcyjną i nie wynikają z dowolnej wypowiedzi AI. |
 
+## Planowany kanał web
+
+| ID | Obszar | Priorytet | Proponowane wymaganie i ręczne sprawdzenie |
+| --- | --- | --- | --- |
+| NFR-20 | Spójność kanałów | P1 / pilotaż | Ta sama wersja scenariusza i te same jawne decyzje prowadzą do tych samych obserwacji niezależnie od klienta. Wynik nie zależy od wyglądu ekranu. |
+| NFR-21 | Dostęp ze strony | P1 / pilotaż | Trening działa na telefonie i komputerze; dopuszczone origin i ewentualne hosty osadzania są kontrolowane. Sesja uczestnika nie wymaga bankowego logowania ani cookies panelu. Limit kosztu AI obejmuje oba kanały, a wyczerpanie budżetu pozostawia czytelny komunikat. |
+
 ## Granice hackathonu
 
 Brak zobowiązań do wysokiej dostępności, autoskalowania, disaster recovery, pełnego audytu prawnego i publikacji w sklepach. Przed rzeczywistym pilotażem osobno uzgadniamy dostawcę AI, retencję, zasady pracy z niepełnoletnimi i proces bezpieczeństwa. Obecnie demonstrujemy rozwiązanie na syntetycznych danych.

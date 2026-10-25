@@ -53,4 +53,14 @@ Status: projekt specyfikacji produktu proponowanej trzeciej odsłony „Metody n
 | FR-30 | P1 | Wejście z materiału kampanii | Dla zainstalowanej aplikacji link może wskazać pakiet lub scenariusz. Niepoprawny lub wycofany cel prowadzi do katalogu. Opcjonalny kod kanału nie identyfikuje osoby. |
 | FR-31 | P1 | Różnicowanie sytuacji | Katalog może zawierać inny pretekst Podszywacza i zwyczajną prośbę do weryfikacji, z właściwym fikcyjnym wynikiem. Każda opublikowana treść nadal spełnia granice symulacji. |
 
+## Planowany kanał strony kampanii
+
+| ID | Priorytet | Wymaganie | Kryterium ręcznego odbioru |
+| --- | --- | --- | --- |
+| FR-32 | P1 / pilotaż kampanii | Trening w przeglądarce | Uczestnik może ukończyć przygotowanie, rozmowę i wynik bez instalowania aplikacji. Oba kanały korzystają z tych samych wersji scenariuszy i reguł. |
+| FR-33 | P1 / pilotaż kampanii | Wejście z sekcji „Metoda na Podszywacza” | Po uzgodnieniu z właścicielem strony przycisk w sekcji prowadzi do treningu w serwisie, zatwierdzonym module lub pod uzgodnionym adresem. Wybieramy jeden sposób integracji, nie wszystkie naraz. |
+| FR-34 | P1 / pilotaż kampanii | Pomiar kanałów | Panel rozróżnia sesje web/mobile i opcjonalny kod materiału, bez sugerowania liczby unikalnych osób lub łączenia ich między urządzeniami. |
+
+Termin FR-32–34 zależy od decyzji o zakresie hackathonu i współpracy z organizatorem. To wymagania proponowanego wariantu, nie polecenie wdrożenia na rzeczywistej stronie.
+
 Po hackathonie: historia między urządzeniami, role zatwierdzającego, import scenariuszy, eksport analityki, osobny moduł realnych incydentów i inne mechaniki ćwiczeń.

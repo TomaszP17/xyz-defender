@@ -30,6 +30,10 @@ Timeout ingressu musi przekraczać limit API; roboczo 30 s wobec limitu modelu 1
 
 Docker Compose uruchamia backend i PostgreSQL. Mobilny klient łączy się z adresem osiągalnym z telefonu, nie z localhost komputera. Czyszczenie danych lokalnych musi być opisane i uruchamiane oddzielnie od zwykłego startu.
 
+## Planowany klient web
+
+Lekki frontend treningu może korzystać z tego samego API. Jego statyczne zasoby można udostępniać przez uzgodnioną infrastrukturę strony albo oddzielny serwer. Nie wymaga to drugiego silnika AI. Routing, domena, limity i ewentualne osadzenie iframe wymagają decyzji właściciela serwisu. [Opis wariantów](web-and-mobile.md).
+
 ## Otwarte
 
 Klaster, domena i certyfikat, rejestr obrazów, baza, przechowywanie sekretów i akceptacja okresów retencji. Ich wybór nie wymaga zmiany granic modułów.

@@ -9,6 +9,8 @@ Celem jest zaplanowanie produktu proponowanej trzeciej odsłony „Metody na Pod
 5. [Wymagania niefunkcjonalne](../07-requirements/non-functional.md): czy proponowane ograniczenia i cele są odpowiednie?
 6. [Ręczny odbiór](../07-requirements/demo-acceptance.md): co będzie można pokazać działającego?
 
+[Katalog możliwości](../01-product/opportunity-catalog.md) porządkuje rozwój, a [wariant na stronie kampanii](../03-architecture/web-and-mobile.md) opisuje dostęp bez instalacji.
+
 ## Decyzje w pierwszej kolejności
 
 - Potwierdzenie z organizatorem propozycji trzeciej odsłony, dystrybucji oraz zasad redagowania materiałów.

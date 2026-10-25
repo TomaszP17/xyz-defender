@@ -27,6 +27,6 @@ Najpierw jeden pełny scenariusz podszywania się pod znajomego. Karty edukacyjn
 
 Pełny katalog wszystkich cyberoszustw i jednoczesne przygotowanie materiałów dla każdej grupy wiekowej. Ćwiczenie ustawień kont oraz szczegółów autoryzacji płatności to późniejsze mechaniki.
 
-Automatyczne testy, rozbudowana analityka, produkcyjna zgodność end-to-end, płatności, bankowe API, odczyt prywatnych wiadomości, OCR, rozmowy głosowe, osobna aplikacja web dla odbiorców i zaawansowany edytor graficzny.
+Automatyczne testy, rozbudowana analityka, produkcyjna zgodność end-to-end, płatności, bankowe API, odczyt prywatnych wiadomości, OCR, rozmowy głosowe, pełny portal web dla odbiorców i zaawansowany edytor graficzny. Lekki trening w przeglądarce jest zaplanowanym zastosowaniem produktu; decyzja o jego wykonaniu na wydarzeniu lub przed pilotażem pozostaje otwarta.
 
 Brak automatycznych testów nie usuwa potrzeby ręcznego przejścia demonstracji przed pokazem.

@@ -1,12 +1,14 @@
 # XYZ Defender
 
-Mobilny produkt proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. Docelowo dla różnych grup odbiorców; pierwszy prototyp: 13–15 lat.
+Produkt treningowy z aplikacją mobilną i wariantem na stronie kampanii, proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. Docelowo dla różnych grup odbiorców; pierwszy prototyp: 13–15 lat.
 
 Status: planowanie projektu hackathonowego. Repozytorium zawiera dokumentację Markdown i makiety graficzne PNG. Nie rozpoczynamy implementacji bez uzgodnienia zakresu.
 
 **[Zobacz makiety aplikacji i panelu](design/mockups/v2/README.md)** — sześć ekranów mobilnych i sześć widoków administracji.
 
-**[Prezentacja produktu: PowerPoint i PDF](presentations/v1/README.md)** — czym jest produkt, jak działa i jak może służyć kampanii.
+**[Prezentacja produktu: PowerPoint i PDF](presentations/v2/README.md)** — czym jest produkt, jak działa i jak może służyć kampanii.
+
+**[22 możliwości produktu i ich priorytety](wiki/01-product/opportunity-catalog.md)** oraz **[trening na stronie kampanii](wiki/03-architecture/web-and-mobile.md)**.
 
 ## Od czego zacząć
 

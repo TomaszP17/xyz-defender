@@ -47,4 +47,6 @@ Identyfikator operacji deduplikuje zapis; nie gwarantuje jednokrotnego naliczeni
 
 ## Dane do pomiaru
 
+Propozycja dla obu kanałów: delivery_channel = web/mobile i opcjonalny entry_code identyfikujący materiał kampanii. Wartości wejściowe walidujemy według listy dozwolonych etykiet. Nie zapisujemy w nich swobodnych danych uczestnika i nie łączymy automatycznie osoby między kanałami. Szczegóły: [web/mobile](web-and-mobile.md).
+
 Liczniki bazują na sesjach z bazy, nie na osobnym systemie zdarzeń. Ukończenie oznacza COMPLETED; STOPPED, ERROR, WITHDRAWN i EXPIRED liczymy osobno. Wskaźnik ukończeń to COMPLETED / wszystkie rozpoczęte sesje, bez preview. Nie nazywamy liczby sesji liczbą unikalnych użytkowników. Małe agregaty demo dostępne są wyłącznie redaktorowi.

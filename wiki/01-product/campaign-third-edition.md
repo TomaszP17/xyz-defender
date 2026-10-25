@@ -28,9 +28,11 @@ Proponowane filary:
 
 ## Ścieżka z kampanii do produktu
 
-Materiał kampanii → wezwanie do treningu → oficjalne miejsce dystrybucji aplikacji → pakiet ćwiczeń → symulacja → informacja zwrotna → propozycja innej sytuacji.
+Materiał kampanii → sekcja „Metoda na Podszywacza” na stronie XYZ → ćwiczenie w przeglądarce → informacja zwrotna. Alternatywnie uczestnik wybiera aplikację mobilną. To propozycja do uzgodnienia z organizatorem.
 
-W demo aplikacja może być już zainstalowana, a kampania wybrana domyślnie. Link do konkretnego pakietu jest P1. Nie obiecujemy zachowania kontekstu po instalacji bez osobnego rozwiązania dystrybucyjnego. Publiczna strona kampanii pozostaje potencjalnym kanałem wejścia; nie zakładamy możliwości jej edycji.
+**Trening na stronie jest pełnym zastosowaniem produktu, bez obowiązku instalowania aplikacji.** Proponujemy wspólny backend, katalog treści i panel dla obu kanałów. [Wariant web/mobile](../03-architecture/web-and-mobile.md).
+
+W demo aplikacja może być już zainstalowana, a kampania wybrana domyślnie. Link do konkretnego pakietu jest P1. Nie obiecujemy zachowania kontekstu po instalacji bez osobnego rozwiązania dystrybucyjnego. Publiczna strona kampanii pozostaje potencjalnym kanałem wejścia i miejscem treningu. Forma osadzenia, link do zatwierdzonego adresu i możliwość edycji serwisu wymagają zgody właściciela.
 
 Dzieci i młodzież mogą trafiać do produktu przez rodzinę lub działania edukacyjne. Dorośli i seniorzy przez odpowiednie kanały organizatora i partnerów, jeżeli zostaną uzgodnione. Nie zakładamy, że ten sam kanał społecznościowy nadaje się dla każdego wieku.
 

@@ -15,4 +15,6 @@ Django proponujemy ze względu na wbudowaną administrację, użytkowników i up
 
 Expo proponujemy dla wspólnego klienta Android/iOS. Współdzielenie kodu z przyszłym webem jest możliwością, nie wymaganiem bieżącego etapu.
 
+Wariant treningu na stronie kampanii opisuje [web/mobile](web-and-mobile.md). Expo Web jest kandydatem do współdzielenia części UI; osobna cienka warstwa React pozostaje alternatywą przy tym samym backendzie. Nie tworzymy teraz nowych klientów.
+
 Wersje zależności i wybór modelu ustalimy przed implementacją na podstawie aktualnej dokumentacji. Nie instalujemy teraz narzędzi i nie zamrażamy numerów wersji.

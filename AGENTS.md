@@ -11,7 +11,8 @@ Przeczytaj README.md, agents/working-agreement.md, wiki/05-delivery/status.md i 
 - Pierwszy prototyp kierujemy do wieku 13–15 lat, zgodnie z decyzją właściciela z 2026-10-25. Szersza wizja obejmuje dzieci, młodzież, dorosłych, rodziny i seniorów przez odpowiednio opracowane pakiety.
 - Produkt proponujemy jako trzecią odsłonę „Metody na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. To kierunek produktu, nie ogłoszony plan organizatora. Przeczytaj wiki/01-product/campaign-third-edition.md.
 - Paleta makiet: czarny, biały i czerwony odczytane ze strony organizatora; aktualna wersja `design/mockups/v2/`. Źródło wartości: `design/mockups/v2/palette.md`. Zachowaj nazwę XYZ.
-- Produkt ma być aplikacją mobilną; panel administracyjny jest kluczowym modułem.
+- Produkt obejmuje aplikację mobilną i uzgodnioną możliwość treningu web na stronie XYZ w sekcji „Metoda na Podszywacza”, bez instalacji. Termin i forma wdrożenia web pozostają otwarte. Panel administracyjny jest kluczowym modułem.
+- Katalog możliwości w wiki/01-product/opportunity-catalog.md to analiza i rekomendacje, nie automatyczne rozszerzenie zakresu hackathonu.
 - Backend ma być w Pythonie. Nie proponuj Javy ani Springa.
 - Zakres hackathonowy; bez planowania kompletnego systemu produkcyjnego i bez automatycznych testów na tym etapie.
 - Docelowy backend ma nadawać się do konteneryzacji i wdrożenia na Kubernetes.

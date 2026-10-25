@@ -42,6 +42,12 @@ Wybranie weryfikacji uruchamia fikcyjny wynik opisany przez scenariusz. Aplikacj
 
 W demo domyślny pakiet dla 13–15 lat, bez pytania o datę urodzenia. W P1 użytkownik może wybrać kontekst pakietu lub wejść do niego z linku kampanii. Link działa dla zainstalowanej aplikacji; odtworzenie wyboru po instalacji pozostaje osobną decyzją. Treści dla dorosłych i seniorów nie pojawiają się jako gotowe, dopóki nie zostaną opracowane i opublikowane.
 
+## Wariant na stronie kampanii
+
+Na stronie XYZ w sekcji „Metoda na Podszywacza” można zaproponować rozpoczęcie krótkiego ćwiczenia bez instalacji. W przeglądarce użytkownik przechodzi przygotowanie, rozmowę i wynik z tych samych wersji treści. Docelowy układ musi działać na telefonie i komputerze; nie kopiujemy całego panelu na stronę uczestnika. Ekrany web i forma osadzenia pozostają do opracowania.
+
+[Trening web i mobile](../03-architecture/web-and-mobile.md) opisuje warianty publikacji. To zastosowanie produktu, a nie gotowa funkcja rzeczywistego serwisu organizatora.
+
 ## Styl wizualny
 
 Jasne tło, ciemny tekst, jeden główny kolor akcentu oraz spójne karty. Bez kopiowania popularnych komunikatorów i bankowości. Neutralne fikcyjne awatary, krótkie komunikaty i opisy tekstowe obok ikon. Kolor nie jest jedynym nośnikiem oceny. Przygotowano [makiety graficzne v2](mockups.md): czerń, biel i czerwony akcent `#E80000` odczytany z oficjalnej strony organizatora, zgodnie z decyzją właściciela. Szczegółowy układ pozostaje do akceptacji.

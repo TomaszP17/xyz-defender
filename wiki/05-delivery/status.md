@@ -4,15 +4,17 @@ Data: 2026-10-25. Etap: planowanie, dokumentacja, makiety graficzne i prezentacj
 
 ## Potwierdzone
 
-Kierunek: propozycja produktu trzeciej odsłony „Metody na Podszywacza” organizatora XYZ. Docelowo dzieci, młodzież, dorośli, rodziny i seniorzy przez odpowiednie pakiety. Pierwszy prototyp dla wieku 13–15 lat. Mobile jako podstawowy produkt. Python jako backend. Panel scenariuszy. Projekt hackathonowy, prosta architektura. Konteneryzacja i Kubernetes. Bez automatycznych testów na tym etapie. Prywatne repozytorium, neutralna nazwa XYZ. Na polecenie właściciela do Markdown dołączono makiety PNG.
+Kierunek: propozycja produktu trzeciej odsłony „Metody na Podszywacza” organizatora XYZ. Docelowo dzieci, młodzież, dorośli, rodziny i seniorzy przez odpowiednie pakiety. Pierwszy prototyp dla wieku 13–15 lat. Aplikacja mobilna oraz uzgodniona możliwość pełnego krótkiego treningu na stronie XYZ w sekcji „Metoda na Podszywacza”, bez instalacji. Termin web pozostaje otwarty. Python jako backend. Panel scenariuszy. Projekt hackathonowy, prosta architektura. Konteneryzacja i Kubernetes. Bez automatycznych testów na tym etapie. Prywatne repozytorium, neutralna nazwa XYZ. Na polecenie właściciela do Markdown dołączono makiety PNG.
 
 ## Przygotowane do omówienia
 
-Plan sześciu ekranów mobilnych i sześciu widoków panelu, granice modułów, przepływ tury AI, stany sesji, wersjonowanie treści, propozycja danych i operacji API, wdrożenie, 31 wymagań funkcjonalnych i 19 niefunkcjonalnych oraz ścieżki ręcznego odbioru. Uzupełniono brief proponowanej trzeciej odsłony, pakiety odbiorców i program C01–C06. To specyfikacja robocza, nie działająca aplikacja; współpraca z organizatorem nie jest potwierdzona.
+Plan sześciu ekranów mobilnych i sześciu widoków panelu, granice modułów, przepływ tury AI, stany sesji, wersjonowanie treści, propozycja danych i operacji API, wdrożenie, 34 wymagania funkcjonalne i 21 niefunkcjonalnych oraz ścieżki ręcznego odbioru. Uzupełniono brief proponowanej trzeciej odsłony, pakiety odbiorców i program C01–C06. To specyfikacja robocza, nie działająca aplikacja; współpraca z organizatorem nie jest potwierdzona.
 
 Przygotowano [makiety graficzne v2](../01-product/mockups.md): sześć ekranów mobile i sześć widoków panelu oraz lokalne podglądy klikalne. Właściciel wybrał czerń, biel i czerwień ze strony organizatora; v2 stosuje tę paletę. Układ pozostaje do omówienia.
 
-Przygotowano [prezentację produktu](../../presentations/v1/README.md): 11 slajdów w PowerPoint i PDF. Prezentacja opisuje koncepcję, działanie oraz oczekiwany użytek dla kampanii i zawiera makiety v2.
+Przygotowano [prezentację produktu v2](../../presentations/v2/README.md): 15 slajdów w PowerPoint i PDF. Prezentacja podkreśla trening na stronie w sekcji „Metoda na Podszywacza”, kanały web/mobile i priorytety rozwoju oraz zawiera makiety v2.
+
+Dodano [katalog 22 możliwości](../01-product/opportunity-catalog.md) i [wariant web/mobile](../03-architecture/web-and-mobile.md). Katalog nie jest automatycznym zakresem MVP. Wariant web rekomendujemy przed szerszą kampanią; sposób integracji wymaga uzgodnienia z właścicielem strony.
 
 ## Propozycje do zatwierdzenia
 

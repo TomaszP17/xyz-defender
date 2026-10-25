@@ -8,4 +8,6 @@ Wersja robocza: 2026-10-25. Zatwierdzono kierunek produktu proponowanej trzeciej
 
 Priorytet P0: potrzebny do pełnego demo obejmującego administrację, trening, wynik i wdrożenie. P1: dodajemy po działającym P0. „Po hackathonie” nie jest zobowiązaniem do implementacji.
 
+Wariant na stronie kampanii opisują FR-32–34 i NFR-20–21. Dla tych pozycji oznaczenie „P1 / pilotaż kampanii” wskazuje zastosowanie po rdzeniu lub w pilotażu; termin wymaga decyzji i nie rozszerza automatycznie hackathonu.
+
 Identyfikatory FR i NFR są stabilne. Zadania agentów odwołują się do nich zamiast kopiować całą specyfikację. Szczegółowe parametry są celami projektowymi, a nie istniejącymi właściwościami systemu.

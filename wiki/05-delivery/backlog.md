@@ -13,6 +13,10 @@
 - [x] Opisać granice modułów, stany sesji i przepływ AI.
 - [x] Rozpisać wymagania FR/NFR i ręczny odbiór.
 - [x] Przygotować propozycję danych, operacji API i wdrożenia.
+- [x] Przygotować katalog 22 możliwości i wariant treningu na stronie kampanii.
+- [ ] Ustalić kolejność klienta web i mobilnego w pilotażu.
+- [ ] Uzgodnić formę udostępnienia treningu z właścicielem strony.
+- [ ] Wybrać możliwości rozwoju z katalogu O01–O22.
 - [ ] Omówić dokumentację i zatwierdzić zakres P0/P1.
 - [ ] Zatwierdzić stos technologiczny.
 - [ ] Ustalić długość wydarzenia i zespół.

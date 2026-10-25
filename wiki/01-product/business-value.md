@@ -4,6 +4,12 @@
 
 Proponowana trzecia odsłona „Metody na Podszywacza” oferuje produkt, w którym odbiorca ćwiczy reakcję, a organizator rozwija i ocenia program edukacyjny. Nie jest to wyłącznie jednorazowy pokaz AI.
 
+## Trening na stronie jako kanał kampanii
+
+Odbiorca może uruchomić ćwiczenie w sekcji „Metoda na Podszywacza” na stronie XYZ bez instalacji. To ważne zastosowanie biznesowe do sprawdzenia przed szerszą dystrybucją. Aplikacja mobilna może służyć kolejnym podejściom; wspólny panel pozwala aktualizować treści w obu kanałach. Hipoteza mniejszej bariery wejścia wymaga pomiaru.
+
+Pełna analiza: [22 możliwości produktu](opportunity-catalog.md).
+
 ## Korzyści do sprawdzenia
 
 | Odbiorca | Oczekiwana korzyść | Co można zaobserwować |
@@ -31,4 +37,4 @@ Możliwy model: finansowanie przez organizatora kampanii lub partnerów. Brak za
 
 ## Najważniejsze ryzyka
 
-Instalacja ograniczająca konwersję z reklamy, zaufanie do źródła aplikacji, brak partnera decyzyjnego i niedopasowanie treści do odbiorców. Zakończenie krótkiego treningu może być ważniejsze niż codzienna retencja. Publikacja w kanałach organizatora wymaga faktycznej współpracy.
+Instalacja aplikacji mobilnej mogąca ograniczyć konwersję z reklamy, zaufanie do źródła aplikacji, brak partnera decyzyjnego i niedopasowanie treści do odbiorców. Zakończenie krótkiego treningu może być ważniejsze niż codzienna retencja. Publikacja w kanałach organizatora wymaga faktycznej współpracy.
