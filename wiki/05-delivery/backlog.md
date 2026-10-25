@@ -7,6 +7,8 @@
 - [ ] Zatwierdzić cele C01–C06, karty i referencje redakcyjne.
 - [ ] Zaplanować kolejność pakietów po pierwszym demo.
 - [x] Przygotować roboczy plan ekranów mobilnych i panelu.
+- [x] Przygotować makiety graficzne v1 i klikalne podglądy.
+- [ ] Omówić i zatwierdzić kierunek wizualny.
 - [x] Opisać granice modułów, stany sesji i przepływ AI.
 - [x] Rozpisać wymagania FR/NFR i ręczny odbiór.
 - [x] Przygotować propozycję danych, operacji API i wdrożenia.

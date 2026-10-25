@@ -2,6 +2,8 @@
 
 Status: plan P0 do omówienia. Django Admin jest rekomendacją. Szczegółowe FR-14–22: [wymagania](../07-requirements/functional.md).
 
+[Makiety panelu](../../design/mockups/v1/README.md) pokazują proponowaną ergonomię. To koncepcja widoków redakcyjnych, nie gotowy wygląd standardowego Django Admin.
+
 ## Ekrany panelu
 
 | Ekran | Układ i działanie |

@@ -4,7 +4,7 @@ Wiki jest zbiorem wersjonowanych plików w repozytorium; nie wymaga osobnej usł
 
 | Obszar | Dokumenty |
 | --- | --- |
-| Produkt | [Wizja](01-product/vision.md), [wartość biznesowa](01-product/business-value.md), [doświadczenie](01-product/experience.md), [propozycja trzeciej odsłony](01-product/campaign-third-edition.md), [odbiorcy](01-product/audiences.md) |
+| Produkt | [Wizja](01-product/vision.md), [wartość biznesowa](01-product/business-value.md), [doświadczenie](01-product/experience.md), [makiety graficzne](01-product/mockups.md), [propozycja trzeciej odsłony](01-product/campaign-third-edition.md), [odbiorcy](01-product/audiences.md) |
 | Zakres | [Hackathon](02-scope/hackathon.md), [moduły](02-scope/modules.md) |
 | Architektura | [Zarys](03-architecture/overview.md), [technologie](03-architecture/technology.md), [dane i API](03-architecture/data-and-api.md), [silnik treningu](03-architecture/training-engine.md), [wdrożenie](03-architecture/deployment.md) |
 | Treści | [Model scenariusza](04-content/scenario-model.md), [panel redakcyjny](04-content/editorial-workflow.md), [bezpieczeństwo](04-content/safety.md), [program kampanii](04-content/campaign-curriculum.md) |

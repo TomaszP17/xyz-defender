@@ -44,7 +44,7 @@ W demo domyślny pakiet dla 13–15 lat, bez pytania o datę urodzenia. W P1 uż
 
 ## Styl wizualny
 
-Jasne tło, ciemny tekst, jeden główny kolor akcentu oraz spójne karty. Bez kopiowania popularnych komunikatorów i bankowości. Neutralne fikcyjne awatary, krótkie komunikaty i opisy tekstowe obok ikon. Kolor nie jest jedynym nośnikiem oceny. Dokładna paleta i makiety graficzne pozostają do uzgodnienia.
+Jasne tło, ciemny tekst, jeden główny kolor akcentu oraz spójne karty. Bez kopiowania popularnych komunikatorów i bankowości. Neutralne fikcyjne awatary, krótkie komunikaty i opisy tekstowe obok ikon. Kolor nie jest jedynym nośnikiem oceny. Przygotowano [makiety graficzne v1](mockups.md): jasne tło, granat i pomarańczowy akcent. Kierunek pozostaje do akceptacji.
 
 ## Panel redakcyjny
 

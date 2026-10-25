@@ -2,7 +2,9 @@
 
 Mobilny produkt proponowany jako trzecia odsłona kampanii „Metoda na Podszywacza” organizatora XYZ: przygotowanie, trening reakcji i ochrona bliskich. Docelowo dla różnych grup odbiorców; pierwszy prototyp: 13–15 lat.
 
-Status: planowanie projektu hackathonowego. Repozytorium zawiera wyłącznie dokumentację Markdown. Nie rozpoczynamy implementacji bez uzgodnienia zakresu.
+Status: planowanie projektu hackathonowego. Repozytorium zawiera dokumentację Markdown i makiety graficzne PNG. Nie rozpoczynamy implementacji bez uzgodnienia zakresu.
+
+**[Zobacz makiety aplikacji i panelu](design/mockups/v1/README.md)** — sześć ekranów mobilnych i sześć widoków administracji.
 
 ## Od czego zacząć
 
@@ -25,6 +27,8 @@ Status: planowanie projektu hackathonowego. Repozytorium zawiera wyłącznie dok
 - `wiki/05-delivery/` — plan, decyzje i backlog.
 - `wiki/06-decisions/` — rejestr decyzji architektonicznych.
 - `wiki/07-requirements/` — wymagania, priorytety i kryteria ręcznego odbioru.
+
+- `design/mockups/` — wersjonowane makiety graficzne i ich opis.
 
 Nie tworzymy teraz katalogów kodu ani konfiguracji narzędzi. Struktura implementacji pozostaje propozycją w wiki.
 
