@@ -1,0 +1,46 @@
+# Wymagania funkcjonalne
+
+Status: projekt specyfikacji. Grupa: 13–15 lat. P0/P1 zgodnie z [definicją priorytetów](README.md). Identyfikatory ekranów: [plan UX](../01-product/experience.md). Kryteria odbieramy ręcznie; nie planujemy teraz automatycznych testów.
+
+## Uczestnik
+
+| ID | Priorytet | Wymaganie | Kryterium ręcznego odbioru |
+| --- | --- | --- | --- |
+| FR-01 | P0 | Rozpoczęcie bez zakładania konta | Uczestnik dociera do katalogu bez nazwiska, e-maila, daty urodzenia i danych finansowych. |
+| FR-02 | P0 | Wyjaśnienie fikcyjnego treningu | Przed startem widać zasady; w całej rozmowie widnieje „Symulacja z AI”. |
+| FR-03 | P0 | Katalog dostępnych scenariuszy | M02 pokazuje opublikowane i niewycofane wersje; szkic nie jest widoczny. Pusta lista i błąd mają różne komunikaty. |
+| FR-04 | P0 | Rozpoczęcie konkretnej sesji | M03 uruchamia jedną sesję przypisaną do wersji treści i kampanii; ponowienie tego samego żądania nie tworzy drugiej sesji. |
+| FR-05 | P0 | Rozmowa tekstowa | Wiadomość uczestnika i odpowiedź postaci pojawiają się w kolejności; podczas generowania nie wysyłamy drugiej tury. |
+| FR-06 | P0 | Jawne działania edukacyjne | Weryfikacja, pomoc dorosłego i zakończenie są rejestrowane jako decyzje. Żadna akcja nie dzwoni ani nie wysyła wiadomości poza aplikacją. |
+| FR-07 | P0 | Fikcyjna decyzja ryzykowna | Scenariusz umożliwia pokazanie skutku ryzykownego wyboru bez wpisywania prawdziwych danych; wynik różni się od bezpiecznej decyzji. |
+| FR-08 | P0 | Przerwanie i zakończenie | Uczestnik może zakończyć także podczas oczekiwania na AI. Po zakończeniu nie można kontynuować tej sesji. |
+| FR-09 | P0 | Limit długości ćwiczenia | Po osiągnięciu limitu tur backend kończy rozmowę i udostępnia podsumowanie. Limit obejmuje ukończone tury, nie nieudane żądania. |
+| FR-10 | P0 | Wyjaśnienie decyzji | M05 wskazuje zaobserwowane działania, nieobserwowane kryteria i wskazówki. Nie obniża oceny za styl pisania ani samą niejednoznaczność wypowiedzi. |
+| FR-11 | P0 | Ponowne ćwiczenie | Powtórzenie tworzy nową sesję z aktualnie dostępną wersją; nie nadpisuje starej. |
+| FR-12 | P0 | Błąd sieci i modelu | Uczestnik widzi problem i może bezpiecznie ponowić tę samą operację albo zakończyć. Nie powstają podwójne wiadomości i wyniki. |
+| FR-13 | P1 | Powrót do aktywnej sesji | Po przejściu aplikacji w tło można pobrać stan sesji. Utrata tokenu oznacza rozpoczęcie nowego treningu, bez wyszukiwania osoby. |
+
+## Redaktor i administracja
+
+| ID | Priorytet | Wymaganie | Kryterium ręcznego odbioru |
+| --- | --- | --- | --- |
+| FR-14 | P0 | Logowanie redaktora | Niezalogowana osoba nie odczytuje szkiców ani nie wykonuje publikacji; wylogowanie zamyka dostęp. |
+| FR-15 | P0 | Tworzenie i edycja szkicu | Redaktor zmienia teksty, postać, cele, limit i feedback przez formularz, bez edycji plików lub kodu. |
+| FR-16 | P0 | Podgląd scenariusza | Redaktor widzi treść, działania i podsumowanie przed publikacją. Podgląd nie podnosi liczników uczestników. |
+| FR-17 | P0 | Walidacja i publikacja | Brak wymaganej treści lub limit ponad dozwolone maksimum blokuje publikację z opisem błędu. Poprawny scenariusz pojawia się po odświeżeniu katalogu. |
+| FR-18 | P0 | Wersjonowanie | Edycja opublikowanej treści tworzy szkic kolejnej wersji. Trwająca sesja nadal używa starej wersji i tych samych reguł oceny. |
+| FR-19 | P0 | Wycofanie treści | Wycofanie blokuje nowe sesje i kończy aktywne sesje tej wersji komunikatem o niedostępności, bez oceny porażki. |
+| FR-20 | P0 | Przypisanie do kampanii | Demo ma jedną kampanię XYZ. Redaktor przypisuje scenariusz do niej bez wdrożenia nowej aplikacji. |
+| FR-21 | P0 | Zagregowane statystyki | Panel pokazuje rozpoczęcia, ukończenia, przerwania, błędy i wycofania, z wyłączeniem podglądów. Powtórzenie treningu liczy się jako nowa sesja. |
+| FR-22 | P1 | Kopiowanie i wyszukiwanie | Redaktor kopiuje scenariusz do szkicu i filtruje listę według statusu oraz tytułu. |
+
+## Logika wspólna
+
+| ID | Priorytet | Wymaganie | Kryterium ręcznego odbioru |
+| --- | --- | --- | --- |
+| FR-23 | P0 | Backend kontroluje przebieg | Model zwraca tekst postaci; nie publikuje treści, nie ustawia punktów ani stanu końcowego. Żądanie wyjścia poza scenariusz nie daje dostępu do funkcji administracyjnych. |
+| FR-24 | P0 | Częściowy wynik | Przerwanie, błąd i wycofanie mają osobne powody zakończenia. Brak obserwacji nie jest automatycznie ryzykowną decyzją. |
+| FR-25 | P0 | Stałe granice treści | Redaktor nie wyłącza etykiety symulacji i ograniczeń aplikacji; interfejs nie prosi o autentyczne sekrety. |
+| FR-26 | P0 | Rozdzielenie sesji i uprawnień | Token jednej sesji nie otwiera innej sesji ani panelu. API uczestnika nie udostępnia instrukcji modelu i wewnętrznych ustawień. |
+
+Po hackathonie: historia między urządzeniami, role zatwierdzającego, import scenariuszy, eksport analityki, osobny moduł realnych incydentów i inne mechaniki ćwiczeń.

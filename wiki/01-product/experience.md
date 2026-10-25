@@ -1,20 +1,45 @@
-# Doświadczenie użytkownika
+# Plan doświadczenia aplikacji
 
-## Aplikacja mobilna — propozycja
+Status: propozycja do omówienia, 2026-10-25. Potwierdzona grupa pierwszego prototypu: 13–15 lat. Wymagania źródłowe: [funkcjonalne](../07-requirements/functional.md) i [niefunkcjonalne](../07-requirements/non-functional.md).
 
-1. Krótkie wyjaśnienie bezpiecznej symulacji.
-2. Lista opublikowanych scenariuszy.
-3. Wprowadzenie do fikcyjnej sytuacji.
-4. Rozmowa i jawne działania, np. przerwanie kontaktu lub weryfikacja.
-5. Zakończenie i wyjaśnienie decyzji.
-6. Możliwość powtórzenia lub wyboru kolejnego ćwiczenia.
+## Kierunek
 
-Etykieta symulacji pozostaje widoczna. Wyjście z ćwiczenia jest zawsze dostępne. Przy błędzie AI użytkownik widzi czytelny komunikat i może zakończyć sesję.
+Krótki trening w fikcyjnym komunikatorze: wejście → wybór sytuacji → rozmowa → decyzja → wyjaśnienie. Zakładamy ćwiczenie około 2–4 minut; to cel projektowy, nie wynik pomiaru. Proponujemy start bez konta. Język prosty, bez infantylizacji, oceniania charakteru i zawstydzania.
 
-## Panel redaktora
+Dwa główne miejsca w aplikacji: Trenuj oraz Jak to działa. Nie pokazujemy pustych modułów „wkrótce”. Historia, rankingi, odznaki, powiadomienia i osobny asystent analizujący prawdziwe wiadomości pozostają poza pierwszym demo.
 
-Lista scenariuszy, prosty formularz, podgląd, publikacja i podstawowe statystyki. Szczegóły w ../04-content/editorial-workflow.md.
+## Mapa ekranów
 
-## Do ustalenia
+| Ekran | Co widać | Najważniejsze działanie | Gdy coś nie działa |
+| --- | --- | --- | --- |
+| M01 Powitanie | XYZ Defender, cel treningu, informacja o fikcyjnych rozmowach i zakazie danych osobistych | Rozpocznij trening | Nie wymaga AI; można przeczytać zasady bez sieci |
+| M02 Trenuj | Karty opublikowanych scenariuszy: tytuł, krótki opis, orientacyjny czas | Wybierz scenariusz | Brak treści: neutralny komunikat; błąd sieci: spróbuj ponownie |
+| M03 Przed rozmową | Fikcyjny kontekst, cel, informacja „Symulacja z AI” | Zaczynam | Wycofany scenariusz: powrót do listy |
+| M04 Rozmowa | Stała etykieta symulacji, fikcyjna postać, wiadomości, pole odpowiedzi, pasek działań | Odpowiedz lub podejmij decyzję | Oczekiwanie, brak sieci i błąd AI opisane osobno; wyjście zawsze dostępne |
+| M05 Wynik | Co zrobiłeś, czego nie zdążyliśmy zaobserwować, wskazówki i powód zakończenia | Spróbuj ponownie lub wróć do listy | Gdy sesja niepełna: podsumowanie częściowe, bez udawania pełnej oceny |
+| M06 Jak to działa | Zasady symulacji, informacja o AI, krótka wskazówka rozmowy z zaufanym dorosłym | Wróć do treningu | Treść statyczna; brak improwizowanych porad kryzysowych |
 
-Dokładny wiek determinuje język, długość rozmowy, trudność, intensywność nacisku i udział dorosłego. Rekomendacja: możliwość rozpoczęcia bez konta i brak ukrytych funkcji śledzenia.
+Pierwsze powitanie można zapamiętać lokalnie, ale oznaczenie symulacji i możliwość odczytania zasad pozostają dostępne. Ekran M06 nie jest modułem reagowania na rzeczywisty incydent.
+
+## Układ ekranu rozmowy
+
+Od góry: powrót i nazwa scenariusza; widoczna etykieta „Symulacja z AI”; przewijany obszar wiadomości; dostęp do działań; pole odpowiedzi i przycisk Wyślij. Klawiatura nie zasłania pola ani przycisku zakończenia.
+
+Działania: „Zweryfikuj innym kanałem”, „Poproś zaufanego dorosłego o pomoc”, „Zakończ kontakt”. W scenariuszu może być także ryzykowny wybór „Przekaż fikcyjne dane w ćwiczeniu” — jako jawna decyzja symulacyjna, bez pola na prawdziwy kod. Uzasadnienie i skutki pokazujemy w podsumowaniu.
+
+Wybranie weryfikacji uruchamia fikcyjny wynik opisany przez scenariusz. Aplikacja nie dzwoni i nie otwiera kontaktów. Wybranie pomocy dorosłego jest jedynie działaniem edukacyjnym.
+
+## Przebiegi
+
+- Podstawowy: M01 → M02 → M03 → M04 → M05 → M02.
+- Przerwanie: M04 → „Zakończ ćwiczenie” → M05 z oznaczeniem przerwania i bez kary.
+- Niedostępne AI: M04 → komunikat → ponowienie tej samej tury albo zakończenie z częściowym wynikiem.
+- Powrót z tła: odczyt stanu aktywnej sesji, jeśli lokalny token nadal istnieje; po wygaśnięciu powrót do katalogu z wyjaśnieniem.
+
+## Styl wizualny
+
+Jasne tło, ciemny tekst, jeden główny kolor akcentu oraz spójne karty. Bez kopiowania popularnych komunikatorów i bankowości. Neutralne fikcyjne awatary, krótkie komunikaty i opisy tekstowe obok ikon. Kolor nie jest jedynym nośnikiem oceny. Dokładna paleta i makiety graficzne pozostają do uzgodnienia.
+
+## Panel redakcyjny
+
+Osobny widok w przeglądarce dla organizatora, przeznaczony przede wszystkim na komputer. Ekrany i publikację opisuje [proces redakcyjny](../04-content/editorial-workflow.md). Dziecko nie widzi panelu ani danych administratora.

@@ -8,7 +8,7 @@ Projekt edukacyjny rozwijany na hackathon, z możliwym wykorzystaniem w kampanii
 
 ## Decyzja
 
-- Pierwsi odbiorcy: dzieci i młodzież; dokładny wiek pozostaje otwarty.
+- Pierwsi odbiorcy: dzieci i młodzież; dokładny wiek był otwarty w chwili tej decyzji. Uzupełnienie: [ADR 0002](0002-first-age-group.md).
 - Podstawowy klient: aplikacja mobilna.
 - Backend: Python.
 - Panel zarządzania scenariuszami stanowi kluczową funkcję.

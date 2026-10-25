@@ -2,7 +2,7 @@
 
 ## Ustalone
 
-Mobilna aplikacja edukacyjna dla dzieci i młodzieży. Użytkownik ćwiczy bezpieczne reakcje na próby podszywania się i manipulacji w fikcyjnej rozmowie. Organizator zarządza treściami przez panel administracyjny.
+Mobilna aplikacja edukacyjna dla dzieci i młodzieży. Pierwszy prototyp obejmuje wiek 13–15 lat, zatwierdzony 2026-10-25. Użytkownik ćwiczy bezpieczne reakcje na próby podszywania się i manipulacji w fikcyjnej rozmowie. Organizator zarządza treściami przez panel administracyjny.
 
 Projekt zaczyna się jako hackathon, ale ma przedstawiać rzeczywistą wartość dla kampanii edukacyjnej XYZ dotyczącej podszywania się. Nie zakładamy formalnej współpracy ani prawa do użycia cudzej identyfikacji.
 
@@ -14,4 +14,4 @@ Adaptacja dialogu ma służyć celom edukacyjnym. Produkt nie jest ogólnym chat
 
 ## Otwarte
 
-Przedział wieku, kanał dotarcia, kontekst rodzinny lub szkolny, udział opiekuna oraz forma pilotażu. Nie przenosimy automatycznie scenariuszy dla dorosłych na młodsze dzieci.
+Kanał dotarcia, kontekst rodzinny lub szkolny, udział opiekuna oraz forma pilotażu. Nie przenosimy automatycznie scenariuszy dla dorosłych na młodsze dzieci.

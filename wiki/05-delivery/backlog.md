@@ -1,17 +1,20 @@
 # Backlog planowania
 
-- [ ] Wybrać przedział wieku.
+- [x] Wybrać przedział wieku: 13–15 lat.
+- [x] Przygotować roboczy plan ekranów mobilnych i panelu.
+- [x] Opisać granice modułów, stany sesji i przepływ AI.
+- [x] Rozpisać wymagania FR/NFR i ręczny odbiór.
+- [x] Przygotować propozycję danych, operacji API i wdrożenia.
+- [ ] Omówić dokumentację i zatwierdzić zakres P0/P1.
 - [ ] Zatwierdzić stos technologiczny.
 - [ ] Ustalić długość wydarzenia i zespół.
-- [ ] Doprecyzować ścieżkę demonstracji i liczbę scenariuszy.
-- [ ] Opisać pierwszy scenariusz, decyzje i feedback.
-- [ ] Opisać pola i podgląd edytora.
-- [ ] Ustalić wersjonowanie i publikację.
-- [ ] Ustalić sposób oceny swobodnego tekstu.
+- [ ] Ustalić liczbę scenariuszy na pokaz.
+- [ ] Zatwierdzić pierwszy scenariusz i feedback.
+- [ ] Zatwierdzić publikację, wersjonowanie i wycofanie.
+- [ ] Zatwierdzić ocenę jawnych działań zamiast interpretacji swobodnego tekstu przez AI.
 - [ ] Wybrać model AI i limit kosztów.
-- [ ] Ustalić minimalny zapis danych.
-- [ ] Opisać ekrany aplikacji mobilnej.
-- [ ] Doprecyzować kontrakt operacji API w Markdown.
-- [ ] Ustalić platformę demonstracji i miejsce wdrożenia.
+- [ ] Ustalić minimalny zapis danych i retencję.
+- [ ] Zatwierdzić cele jakościowe i parametry NFR.
+- [ ] Wybrać platformę mobilną oraz miejsce wdrożenia.
 
-Implementacja nie jest aktualnie zlecona. Zadania kodowe zostaną wydzielone po uzgodnieniu specyfikacji, z jasno wskazanym zakresem i ręcznym sposobem odbioru.
+Wykonane punkty oznaczają przygotowanie dokumentacji, nie akceptację wszystkich propozycji ani implementację. Zadania kodowe powstaną dopiero po osobnym poleceniu, ze wskazaniem FR/NFR i ręcznego sposobu odbioru.

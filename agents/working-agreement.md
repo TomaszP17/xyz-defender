@@ -12,6 +12,7 @@ W obecnym etapie rezultatem jest dokument lub uzgodniona decyzja. Późniejsza i
 
 - Intencja i wartość: wiki/01-product/.
 - Zakres: wiki/02-scope/.
+- Szczegółowe wymagania i ręczny odbiór: wiki/07-requirements/.
 - Podział odpowiedzialności i technologie: wiki/03-architecture/.
 - Treści i publikacja: wiki/04-content/.
 - Kolejność działań i niewiadome: wiki/05-delivery/.

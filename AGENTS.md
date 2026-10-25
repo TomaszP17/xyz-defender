@@ -2,13 +2,13 @@
 
 ## Kolejność czytania
 
-Przeczytaj README.md, agents/working-agreement.md, wiki/05-delivery/status.md i dokumenty związane z zadaniem. Otwarte kwestie sprawdzaj w wiki/05-delivery/open-decisions.md.
+Przeczytaj README.md, agents/working-agreement.md, wiki/05-delivery/status.md i dokumenty związane z zadaniem. Otwarte kwestie sprawdzaj w wiki/05-delivery/open-decisions.md. Plan omawiania specyfikacji: wiki/05-delivery/review-guide.md. Identyfikatory FR i NFR mają źródło w wiki/07-requirements/.
 
 ## Obowiązujące ustalenia
 
 - Pracujemy po polsku. Nazwa projektu i partnera: wyłącznie XYZ.
 - Obecny etap to dokumentacja. Twórz i edytuj wyłącznie pliki `.md`; nie generuj kodu, scaffoldingu, manifestów ani zależności.
-- Odbiorcami są dzieci i młodzież. Dokładny wiek nie jest ustalony.
+- Pierwszy prototyp kierujemy do wieku 13–15 lat, zgodnie z decyzją właściciela z 2026-10-25. Szersza wizja obejmuje dzieci i młodzież.
 - Produkt ma być aplikacją mobilną; panel administracyjny jest kluczowym modułem.
 - Backend ma być w Pythonie. Nie proponuj Javy ani Springa.
 - Zakres hackathonowy; bez planowania kompletnego systemu produkcyjnego i bez automatycznych testów na tym etapie.

@@ -2,11 +2,11 @@
 
 ## Etap 0 — uzgodnienie
 
-Wybrać wiek, przyjąć stos, ustalić czas hackathonu i pełny przebieg demonstracji. Rezultat: krótka zatwierdzona specyfikacja.
+Wiek 13–15 lat zatwierdzony. Przyjąć stos, ustalić czas hackathonu i pełny przebieg demonstracji. Rezultat: krótka zatwierdzona specyfikacja.
 
 ## Etap 1 — projekt treści i ekranów
 
-Opisać pierwszy scenariusz, formularz redakcyjny, katalog mobilny, rozmowę i wynik. Ustalić reguły oceny oraz warunki zakończenia. Rezultat: dokumentacja umożliwiająca małe zadania agentów.
+Opisać pierwszy scenariusz, formularz redakcyjny, katalog mobilny, rozmowę i wynik. Ustalić reguły oceny oraz warunki zakończenia. Robocze opisy ekranów, architektury i FR/NFR są już zapisane. Rezultat etapu: omówiona dokumentacja umożliwiająca małe zadania agentów.
 
 ## Etap 2 — implementacja, dopiero po osobnym poleceniu
 

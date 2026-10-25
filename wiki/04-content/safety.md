@@ -12,6 +12,6 @@
 
 Treść wygenerowana przez model podlega ograniczeniom scenariusza. Przy błędzie lub wyjściu poza zakres sesja ma bezpieczną ścieżkę zakończenia. Sama instrukcja w prompcie nie gwarantuje przestrzegania reguł.
 
-Dokładny wiek, udział opiekuna, retencja i warunki pilotażu z niepełnoletnimi wymagają decyzji przed użyciem przez rzeczywistych odbiorców. Hackathon nie oznacza gotowości do publicznego wdrożenia.
+Pierwszy prototyp obejmuje wiek 13–15 lat. Udział opiekuna, retencja i warunki pilotażu z niepełnoletnimi wymagają decyzji przed użyciem przez rzeczywistych odbiorców. Hackathon nie oznacza gotowości do publicznego wdrożenia.
 
 Nie formułujemy tu opinii prawnej. Dla demonstracji proponujemy dane syntetyczne i brak pobierania prawdziwych informacji finansowych.
